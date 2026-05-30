@@ -1,0 +1,97 @@
+main {
+  width: 780px;
+  max-width: 95%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.counter {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.crossing {
+  position: relative;
+  height: 520px;
+  border: 1px solid #dddddd;
+}
+
+.trafficLight {
+  position: absolute;
+  width: 130px;
+}
+
+.north {
+  top: 10px;
+  left: 325px;
+}
+
+.south {
+  bottom: 10px;
+  left: 325px;
+}
+
+.east {
+  top: 190px;
+  right: 30px;
+}
+
+.west {
+  top: 190px;
+  left: 30px;
+}
+
+.trafficLight p {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.box {
+  width: 64px;
+  margin: 0 auto;
+  padding: 8px;
+  background: #222222;
+}
+
+.box span {
+  display: block;
+  width: 38px;
+  height: 38px;
+  margin: 7px auto;
+  border-radius: 50%;
+  background: #555555;
+}
+
+.red.on {
+  background: red;
+}
+
+.yellow.on {
+  background: yellow;
+}
+
+.green.on {
+  background: green;
+}
+
+@media (max-width: 650px) {
+  .crossing {
+    height: 620px;
+  }
+
+  .north,
+  .south {
+    left: calc(50% - 65px);
+  }
+
+  .east {
+    top: 245px;
+    right: 20px;
+  }
+
+  .west {
+    top: 245px;
+    left: 20px;
+  }
+}
