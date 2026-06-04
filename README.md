@@ -31,3 +31,7 @@ El archivo `trafficLogic.ts` contiene las fases y la función que calcula la sig
 La interfaz muestra un contador y cuatro semáforos ubicados según su dirección.
 
 Cada semáforo tiene tres luces: rojo, amarillo y verde. Según la fase actual, React actualiza el color encendido de cada semáforo en tiempo real.
+
+## Enlaces
+### Despliegue en GH-Pages
+https://nduron03.github.io/ej-analisis/
