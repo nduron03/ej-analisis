@@ -34,4 +34,4 @@ Cada semáforo tiene tres luces: rojo, amarillo y verde. Según la fase actual, 
 
 ## Enlaces
 ### Despliegue en GH-Pages
-https://nduron03.github.io/ej-analisis/
+https://duron03.github.io/ej-analisis/
